@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<hr lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtendo os arquivos</title>
+</head>
+    <h1>Obtendo os arquivos WWW</h1>
+    <br> Leia isto se você ainda não tiver os arquivos WWW necessários e não puder montar um diretório NFS no qual eles residem. </br>
+<br> A fonte e o binário dos arquivos do projeto WWW estão atualmente disponíveis (veja <a href="copyright.html"> copyright</a> ) por FTP anônimo do nó info.cern.ch. Este nó é atualmente 128.141.201.74, mas ISSO PODE MUDAR. Os arquivos são archives de fita compactados (.tar.Z). Para obter um arquivo usando FTP anônimo, use o nome de usuário "anônimo" e seu endereço de e-mail como senha: - </br>
+
+<br> ftp info.cern.ch
+Digite o nome de usuário: anônimo
+Senha: me@myhost.edu
+ftp> cd /pub/www/src
+ftp> binário
+ftp> obter WWWLineMode_vvv.tar.Z
+ftp> sair
+> </br>
+
+<br> O nome do arquivo dependerá do produto que você deseja. Aqui vvv é o número da versão do software.
+Depois de ter o arquivo tar compactado, você deve descompactá-lo e descompactá-lo.
+
+descompactar WWWLineMode_vvv.tar.Z </br>
+
+Isso criará um arquivo um pouco maior com o nome sem o ".Z". Para desembrulhar,
+tar xvf WWWLineMode_vvv.tar
+
+<br> 
+<p>
+Agora você deve <a href="instalar-navegador.html"> instalar o navegador de modo de linha</a>, <a href="instalar-servidor.html"> instalar o servidor</a>, </p> 
+<a href="instalar-viola.html">instalar o Viola</a> , etc.
+<br>
+<a href="tim-bl.html">Tim BL</a> </br>
+    
+</body>
+</html>
